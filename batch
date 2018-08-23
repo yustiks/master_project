@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=resnet50
+#SBATCH --time=32:00:00
+#SBATCH --nodes=1
+#SBATCH --gres=gpu:1
+#SBATCH --ntasks=14
+#SBATCH -p lyceum
+cd $SLURM_SUBMIT_DIR
+
+module load conda
+source activate jup_env
+python finetune.py
+

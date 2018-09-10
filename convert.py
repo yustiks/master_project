@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Dec  9 14:55:43 2015
-This script is to convert the txt annotation files to appropriate format needed by YOLO 
-@author: Guanghan Ning
-Email: gnxr9@mail.missouri.edu
+changed scriopt for the generation of the boxes for the objects in the images
 """
 
 import os

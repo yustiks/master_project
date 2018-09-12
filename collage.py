@@ -14,8 +14,7 @@ y_offset = 0
 files = os.listdir('car1/')
 i = 0 
 for el in files:
-    if (i%26==0):
-        i = 0
+    if (i%26==0) and (i!=0):
         y_offset += 75
         x_offset = 0
     im = Image.open('car1/'+el, 'r')
@@ -23,3 +22,4 @@ for el in files:
     x_offset += 75
     i += 1
 new_im.save('test1.jpg')
+print(i)

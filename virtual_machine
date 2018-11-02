@@ -1,0 +1,31 @@
+1) install miniconda
+2) conda info --envs
+3) conda create --name newenv python=3.6.5
+
+
+4) source activate newenv
+5) conda install jupyter, pandas, keras...
+
+To run jupyter:
+	jupyter notebook --no-browser --port 8380
+
+ls cd mkdir
+
+копировать картинки
+scp -r ./ ii1n17@myrtle.ecs.soton.ac.uk:/home/ii1n17/folder_name
+
+виртуалка 
+ssh -L 8380:127.0.0.1:8380 ii1n17@myrtle.ecs.soton.ac.uk
+ssh -L 8380:127.0.0.1:8380 user@svm-ii1n17-yustiks.ecs.soton.ac.uk
+
+Если не работапет конда:
+nano ~/.bash_profile
+export PATH=/home/ii1n17/miniconda3/bin:$PATH
+. ~/.bash_profile
+conda --version 
+
+conda activate
+
+
+Работа с environment: 
+1) conda activate one

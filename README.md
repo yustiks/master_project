@@ -11,3 +11,5 @@ generate_cars.py - generate patches from the initial dataset of 1000 images to 8
 ## Notebooks
 
 CNN.ipynb - ResNet50 training
+
+download_images.ipynb - notebook to download images
